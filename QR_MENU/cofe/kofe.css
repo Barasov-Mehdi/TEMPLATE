@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 170vh;
+    background-image: url(../img/fonsekil.jpg);
+    /* background-image:url(menu1.avif); bu */
+    background-size: cover;
+    background-repeat:no-repeat; 
+    /* background-color:darkolivegreen;  */
+    /* background-color:rgb(110, 126, 83);  */
+    /* background-color:rgb(105, 128, 66);  */
+    overflow: hidden;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+/* LOGO IMG */
+.div11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 25px;
+
+}
+.div11 img{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    width: 280px;
+    height: 16vh;
+    object-fit: contain;
+
+}
+.dv2{
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+/* CESİD 4 */
+/* NOV BASİ */
+#div4{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(0, 255, 221);
+    margin-top: 10px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+#nov1{
+    font-size:x-large;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+#pp1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp1 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp2 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp3 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp4 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp5{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp5 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp6{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp6 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp7{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp7 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp8{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp8 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp9{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp9 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp10{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp10 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp11{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp11 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp12{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp12 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+/* NOV SONU */
+
+/* NOV 2 BAS */
+#div5{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(0, 255, 221);
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+#nov2{
+    font-size:x-large;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+
+}
+#pp13{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp13 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp14{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp14 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp15{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp15 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp16{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp16 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#div6{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(0, 255, 221);
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+#nov3{
+    font-size:x-large;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+
+}
+#pp17{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp17 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp18{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp18 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+#pp19{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    color: white;
+    font-weight: bold;
+
+}
+#pp19 span{
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:gold;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+
+}
+/* NOV 2 SON */
+
+/* HOME BUTTON */
+.dv3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+    height: 7vh;
+    margin-top: 10px;
+    /* border: 1px solid white; */
+}
+.aa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    height: 5vh;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: red;
+    border-radius: 5px;
+}
+.aa1:hover{
+    background-color: green;
+    
+}
+.pp1{
+    color: white;
+}
+.div11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+
+}
+.div11 img{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 13vh;
+    object-fit: contain;
+
+}
+
+/* QARA HR EVEZI */
+#qara{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
